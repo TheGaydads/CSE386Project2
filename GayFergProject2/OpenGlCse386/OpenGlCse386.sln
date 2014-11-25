@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGlCse386", "OpenGlCse386\OpenGlCse386.vcxproj", "{7CFB5C97-484D-4D87-8C7B-440F79394E04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSE386Project2", "CSE386Project2\CSE386Project2.vcxproj", "{159ACB27-3BA3-4AEB-8402-D848F5FB5B87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CFB5C97-484D-4D87-8C7B-440F79394E04} = {7CFB5C97-484D-4D87-8C7B-440F79394E04}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CFB5C97-484D-4D87-8C7B-440F79394E04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CFB5C97-484D-4D87-8C7B-440F79394E04}.Debug|Win32.Build.0 = Debug|Win32
+		{7CFB5C97-484D-4D87-8C7B-440F79394E04}.Release|Win32.ActiveCfg = Release|Win32
+		{7CFB5C97-484D-4D87-8C7B-440F79394E04}.Release|Win32.Build.0 = Release|Win32
+		{159ACB27-3BA3-4AEB-8402-D848F5FB5B87}.Debug|Win32.ActiveCfg = Debug|Win32
+		{159ACB27-3BA3-4AEB-8402-D848F5FB5B87}.Debug|Win32.Build.0 = Debug|Win32
+		{159ACB27-3BA3-4AEB-8402-D848F5FB5B87}.Release|Win32.ActiveCfg = Release|Win32
+		{159ACB27-3BA3-4AEB-8402-D848F5FB5B87}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

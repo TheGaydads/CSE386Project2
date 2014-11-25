@@ -1,0 +1,100 @@
+﻿Build started 11/24/2014 10:03:41 PM.
+     1>Project "M:\GayFergProject2\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp
+         Cube.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"M:\GayFergProject2\OpenGlCse386\Debug\OpenGlCse386.lib" /NOLOGO Debug\aldlist.obj
+         Debug\AttackingObjectsController.obj
+         Debug\BallisticsController.obj
+         Debug\bitmap_class.obj
+         Debug\BuildShaderProgram.obj
+         Debug\Cone.obj
+         Debug\Controller.obj
+         Debug\Cube.obj
+         Debug\CWaves.obj
+         Debug\Cylinder.obj
+         Debug\ElevateController.obj
+         Debug\Floor.obj
+         Debug\Floor2.obj
+         Debug\Framework.obj
+         Debug\glutBase.obj
+         Debug\GlutCube.obj
+         Debug\GlutCylinder.obj
+         Debug\GlutObject.obj
+         Debug\GlutSphere.obj
+         Debug\PlayerController.obj
+         Debug\LoadOAL.obj
+         Debug\Material.obj
+         Debug\OpenGLApplicationBase.obj
+         Debug\OrbitController.obj
+         Debug\Pyramid.obj
+         Debug\SharedGeneralLighting.obj
+         Debug\SharedProjectionAndViewing.obj
+         Debug\SoundSource.obj
+         Debug\SpaceShip.obj
+         Debug\Sphere.obj
+         Debug\SpinnerController.obj
+         Debug\textureCoordinates.obj
+         Debug\Torus.obj
+         Debug\Tree.obj
+         Debug\VisualObject.obj
+         Debug\Wall.obj
+         Debug\WaypointController.obj
+         OpenGlCse386.vcxproj -> M:\GayFergProject2\OpenGlCse386\Debug\OpenGlCse386.lib
+       PostBuildEvent:
+         copy "*.h" "M:\GayFergProject2\OpenGlCse386\"\Include\
+         copy "M:\GayFergProject2\OpenGlCse386\Debug\OpenGlCse386.lib" "M:\GayFergProject2\OpenGlCse386\"\"Lib\OpenGlCse386.lib"
+         :VCEnd
+         al.h
+         alc.h
+         aldlist.h
+         AttackingObjectsController.h
+         BallisticsController.h
+         bitmap_class.h
+         BuildShaderProgram.h
+         Cone.h
+         Controller.h
+         Cube.h
+         CWaves.h
+         Cylinder.h
+         efx-creative.h
+         EFX-Util.h
+         efx.h
+         ElevateController.h
+         Floor.h
+         Floor2.h
+         font.h
+         Framework.h
+         glutBase.h
+         GlutCube.h
+         GlutCylinder.h
+         GlutObject.h
+         GlutSphere.h
+         LoadOAL.h
+         Material.h
+         OpenGLApplicationBase.h
+         OrbitController.h
+         PlayerController.h
+         Pyramid.h
+         SharedGeneralLighting.h
+         SharedProjectionAndViewing.h
+         SoundSource.h
+         SpaceShip.h
+         Sphere.h
+         SpinnerController.h
+         textureCoordinates.h
+         Torus.h
+         Tree.h
+         vertexStructs.h
+         VisualObject.h
+         Wall.h
+         WaypointController.h
+         xram.h
+                45 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "M:\GayFergProject2\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.74

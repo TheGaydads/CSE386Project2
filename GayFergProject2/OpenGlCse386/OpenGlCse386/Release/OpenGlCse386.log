@@ -1,0 +1,57 @@
+﻿Build started 11/3/2014 4:26:17 PM.
+     1>Project "M:\OpenGlCse386\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cone.cpp
+         Cone.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"M:\OpenGlCse386\OpenGlCse386\Release\OpenGlCse386.lib" /NOLOGO /LTCG Release\BuildShaderProgram.obj
+         Release\Cone.obj
+         Release\Controller.obj
+         Release\Cube.obj
+         Release\Cylinder.obj
+         Release\ElevateController.obj
+         Release\Floor.obj
+         Release\Floor2.obj
+         Release\glutBase.obj
+         Release\Material.obj
+         Release\OpenGLApplicationBase.obj
+         Release\OrbitController.obj
+         Release\Pyramid.obj
+         Release\SharedProjectionAndViewing.obj
+         Release\Sphere.obj
+         Release\SpinnerController.obj
+         Release\textureCoordinates.obj
+         Release\VisualObject.obj
+         Release\WaypointController.obj
+         OpenGlCse386.vcxproj -> M:\OpenGlCse386\OpenGlCse386\Release\OpenGlCse386.lib
+       PostBuildEvent:
+         copy "*.h" "M:\OpenGlCse386\OpenGlCse386\"\Include\
+         copy "M:\OpenGlCse386\OpenGlCse386\Release\OpenGlCse386.lib" "M:\OpenGlCse386\OpenGlCse386\"\"Lib\OpenGlCse386.lib"
+         :VCEnd
+         BuildShaderProgram.h
+         Cone.h
+         Controller.h
+         Cube.h
+         Cylinder.h
+         ElevateController.h
+         Floor.h
+         Floor2.h
+         glutBase.h
+         Material.h
+         OpenGLApplicationBase.h
+         OrbitController.h
+         Pyramid.h
+         SharedProjectionAndViewing.h
+         Sphere.h
+         SpinnerController.h
+         textureCoordinates.h
+         vertexStructs.h
+         VisualObject.h
+         WaypointController.h
+                20 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "M:\OpenGlCse386\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.35
