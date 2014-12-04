@@ -1,14 +1,16 @@
-﻿Build started 11/24/2014 10:03:41 PM.
+﻿Build started 12/3/2014 10:30:32 PM.
      1>Project "M:\GayFergProject2\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp
-         Cube.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Target.cpp
+         Target.cpp
+     1>m:\gayfergproject2\openglcse386\openglcse386\target.cpp(17): warning C4305: 'argument' : truncation from 'double' to 'float'
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"M:\GayFergProject2\OpenGlCse386\Debug\OpenGlCse386.lib" /NOLOGO Debug\aldlist.obj
          Debug\AttackingObjectsController.obj
          Debug\BallisticsController.obj
          Debug\bitmap_class.obj
          Debug\BuildShaderProgram.obj
+         Debug\Cloud.obj
          Debug\Cone.obj
          Debug\Controller.obj
          Debug\Cube.obj
@@ -31,10 +33,12 @@
          Debug\Pyramid.obj
          Debug\SharedGeneralLighting.obj
          Debug\SharedProjectionAndViewing.obj
+         Debug\Snowman.obj
          Debug\SoundSource.obj
          Debug\SpaceShip.obj
          Debug\Sphere.obj
          Debug\SpinnerController.obj
+         Debug\Target.obj
          Debug\textureCoordinates.obj
          Debug\Torus.obj
          Debug\Tree.obj
@@ -53,6 +57,7 @@
          BallisticsController.h
          bitmap_class.h
          BuildShaderProgram.h
+         Cloud.h
          Cone.h
          Controller.h
          Cube.h
@@ -79,10 +84,12 @@
          Pyramid.h
          SharedGeneralLighting.h
          SharedProjectionAndViewing.h
+         Snowman.h
          SoundSource.h
          SpaceShip.h
          Sphere.h
          SpinnerController.h
+         Target.h
          textureCoordinates.h
          Torus.h
          Tree.h
@@ -91,10 +98,10 @@
          Wall.h
          WaypointController.h
          xram.h
-                45 file(s) copied.
+                48 file(s) copied.
                  1 file(s) copied.
      1>Done Building Project "M:\GayFergProject2\OpenGlCse386\OpenGlCse386\OpenGlCse386.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:12.74
+Time Elapsed 00:00:12.47

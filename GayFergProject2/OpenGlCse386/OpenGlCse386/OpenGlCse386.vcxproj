@@ -91,6 +91,7 @@ copy "$(TargetPath)" "$(SolutionDir)"\"Lib\$(TargetFileName)"</Command>
     <ClInclude Include="BallisticsController.h" />
     <ClInclude Include="bitmap_class.h" />
     <ClInclude Include="BuildShaderProgram.h" />
+    <ClInclude Include="Cloud.h" />
     <ClInclude Include="Cone.h" />
     <ClInclude Include="Controller.h" />
     <ClInclude Include="Cube.h" />
@@ -117,10 +118,12 @@ copy "$(TargetPath)" "$(SolutionDir)"\"Lib\$(TargetFileName)"</Command>
     <ClInclude Include="Pyramid.h" />
     <ClInclude Include="SharedGeneralLighting.h" />
     <ClInclude Include="SharedProjectionAndViewing.h" />
+    <ClInclude Include="Snowman.h" />
     <ClInclude Include="SoundSource.h" />
     <ClInclude Include="SpaceShip.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="SpinnerController.h" />
+    <ClInclude Include="Target.h" />
     <ClInclude Include="textureCoordinates.h" />
     <ClInclude Include="Torus.h" />
     <ClInclude Include="Tree.h" />
@@ -136,6 +139,7 @@ copy "$(TargetPath)" "$(SolutionDir)"\"Lib\$(TargetFileName)"</Command>
     <ClCompile Include="BallisticsController.cpp" />
     <ClCompile Include="bitmap_class.cpp" />
     <ClCompile Include="BuildShaderProgram.cpp" />
+    <ClCompile Include="Cloud.cpp" />
     <ClCompile Include="Cone.cpp" />
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Cube.cpp" />
@@ -158,10 +162,12 @@ copy "$(TargetPath)" "$(SolutionDir)"\"Lib\$(TargetFileName)"</Command>
     <ClCompile Include="Pyramid.cpp" />
     <ClCompile Include="SharedGeneralLighting.cpp" />
     <ClCompile Include="SharedProjectionAndViewing.cpp" />
+    <ClCompile Include="Snowman.cpp" />
     <ClCompile Include="SoundSource.cpp" />
     <ClCompile Include="SpaceShip.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="SpinnerController.cpp" />
+    <ClCompile Include="Target.cpp" />
     <ClCompile Include="textureCoordinates.cpp" />
     <ClCompile Include="Torus.cpp" />
     <ClCompile Include="Tree.cpp" />

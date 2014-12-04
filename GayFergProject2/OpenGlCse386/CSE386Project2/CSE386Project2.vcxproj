@@ -93,8 +93,14 @@
   <ItemGroup>
     <Image Include="earth.bmp" />
     <Image Include="MirandaNora.bmp" />
+    <Image Include="snow.bmp" />
+    <Image Include="snowBackground.bmp" />
     <Image Include="test.bmp" />
+    <Image Include="TreeSky.bmp" />
     <Image Include="wood-Sphere.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="skating.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

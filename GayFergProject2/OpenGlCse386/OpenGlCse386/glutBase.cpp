@@ -5,6 +5,8 @@
 #include "glutbase.h"
 
 // *************** EVENT HANDLERS ***************************************
+GLuint width;
+GLuint height;
 
 /**
 * Function: 
@@ -94,7 +96,8 @@ static void menuStatusCB(int status, int x, int y)
 static void ReshapeCB(int windowWidth, int windowHeight)
 {
 	// Modify rendering based on new window aspect ratio.
-	s_pOpenGLAppBase->ReshapeCB( windowWidth, windowHeight);
+	s_pOpenGLAppBase->ReshapeCB(windowWidth, windowHeight);
+	glutReshapeWindow(width,height);
 
 } // end ReshapeCB
 
@@ -163,8 +166,10 @@ void GLUTBaseInit(int argc, char** argv)
 /*
 * Specifies  initial title, size, position and name of window and whether or not fullscreen is desired. 
 */
-GLboolean GLUTBaseCreateWindow(const char* pTitle, GLuint width, GLuint height, GLboolean fullScreen )
+GLboolean GLUTBaseCreateWindow(const char* pTitle, GLuint w, GLuint h, GLboolean fullScreen )
 {
+	width = w;
+	height = h;
 	// Specify window size.
 	glutInitWindowSize(width, height);
 	// Specify window placement relative to the upper left hand corner of the screen.

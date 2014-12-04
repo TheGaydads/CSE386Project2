@@ -3,10 +3,10 @@
 
 using namespace glm;
 
-BallisticsController::BallisticsController(vec3 velDir, glm::vec3 position) {
-	this->velocity = normalize(velDir) * 40.0f;
+BallisticsController::BallisticsController(glm::vec3 position) {
+	this->velocity = normalize(vec3(0.0f, -1.0f, 0.0f)) * 4.2f;
 	this->position = position;
-	gravity = vec3 (0.0f, -40.0f, 0.0f);
+	gravity = vec3 (0.0f, -4.2f, 0.0f);
 }
 
 BallisticsController::~BallisticsController(void) {
